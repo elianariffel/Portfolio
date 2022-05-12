@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,700&family=Playfair+Display:ital@1&family=Raleway:ital,wght@1,200&display=swap');
+
+
+body {
+     
+    background-image: url(../img/pcEscritorio.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+h1 {
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    color: #0dc2aa;
+    text-align: center;
+
+}
+
+p {
+
+    font-family:'Libre Bodoni', serif;
+    color: #acd713;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+h2 {
+
+    color: #8a2be2;
+
+}
+
+header {
+
+    position: relative;
+    top:1rem;
+    left: 0;
+    width: 100;
+    display: flex;
+    
+}
+
+header .logo {
+
+    position: absolute;
+    margin-left: 0.5rem;
+
+}
+
+header .navigation {
+
+    position: absolute;
+    display: flex;
+    margin-left: 1.5rem;
+   
+
+}
+
+header .navigation li {
+
+    list-style: none;
+}
+
+header .navigation li a {
+    
+    text-decoration: none;
+    margin-left: 1.5rem;
+    
+}
+
+header .navigation li a:hover {
+
+    color:#000000;
+    font-size: large
+
+}
+
+main .iniciarSesion {
+
+     height: 15rem;
+     margin-top: 3rem;
+
+}
+
+main .registrarse {
+
+    height: 15rem;
+    margin-top: 3rem;
+}
+
+.titulo {
+
+    height: 15rem;
+    margin-top: 5rem;
+}
+
+main .parrafo {
+
+    height: 5rem;
+
+    margin-top: 3.2rem;
+
+}
+
+footer {
+
+    height: 3rem;
+
+}
+
+h6 {
+
+    margin-top: 0;
+
+
+}
+
+@media only screen and (min-width: 320px){
+
+    h1 {
+
+        font-size:2rem;
+        
+    }
+    
+    p {
+
+        font-size: 1rem ;
+
+    }
+
+
+
+}
+
+@media only screen and (min-width: 700px){
+
+    h1 {
+
+        font-size:2.5rem;
+        
+    }
+    
+    p {
+
+        font-size: 1.8rem ;
+
+    }
+
+
+
+}
+
+@media only screen and (min-width: 1281px){
+
+    h1 {
+
+        font-size:3rem;
+        
+    }
+    
+    p {
+
+        font-size: 2.2rem ;
+
+    }
+
+
+
+}
+
+
+

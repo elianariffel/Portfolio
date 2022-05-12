@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,700&family=Playfair+Display:ital@1&family=Raleway:ital,wght@1,200&display=swap');
+
+header {
+
+    margin-top: 2rem;
+    
+}
+
+body {
+
+    background-color: #d3d3d3;
+
+}
+
+h1 {
+
+    display: flex;
+    align-self: center;
+    margin-left: 18rem;
+    font-family: 'Libre Bodoni', serif;
+    font-size: 3.5rem;
+    color: #dbb681;
+
+}
+
+/*.contenedor {
+
+    background-color: black;
+    height: 22rem;
+    width: 48rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+    margin-left: 18rem;
+    align-items: center;
+    
+}
+
+.card1 {
+
+    background-color: beige;
+    height: 20rem;
+    width: 15rem;
+}
+
+.card2 {
+
+    background-color: blue;
+    height: 20rem;
+    width: 15rem;
+
+}
+
+.card3 {
+
+    background-color: blueviolet;
+    height: 20rem;
+    width: 15rem;
+
+
+}
+*/
+
+.padre {
+
+    background-color: #faebd7;
+    width: 60rem;
+    height: 40rem;
+    margin-left: 18rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.hijo {
+
+  margin-left: 1.2rem;
+  margin-top: 0.5rem;
+   
+}
+
+header a.volver {
+
+    text-decoration: none;
+    margin-left: 2rem;
+
+}
+
+header a.volver:hover {
+
+    color: #000000;
+    font-size: larger;
+}
+
+.divfooter {
+   
+    height: 2rem;
+
+}    
+
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+
+    h1 {
+  
+        font-size:2rem;
+        margin-left: 6rem;
+        
+    }
+    
+    .padre {
+       
+        width: 21rem;
+        height: 130rem;
+        margin-left: 0rem;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+       
+    }
+    
+    .hijo {
+
+        margin-left: 2.5rem;
+       
+
+    }
+
+    .bailarina {
+        
+        width: 20rem;
+
+    }
+
+    
+
+}
+
+ @media only screen and (min-width: 420px) and (max-width: 900px) {
+
+    .padre {
+
+        margin-left: 0rem;
+        
+    }
+
+}
+ 
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+
+    .padre {
+    
+        margin-left: 0rem;
+        width: 60rem;
+        height: 40rem;
+    
+    }   
+    
+    }
