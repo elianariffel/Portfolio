@@ -1,28 +1,30 @@
+
 body {
 
     background-color: #c5b9b9;
-}
 
+}
 
 p {
+
     color: #a52a2a;
+
 }
 
-
-.letrarosa {
+.parrafoRosa {
 
     color: #d87093;
+
 }
 
-
-.contenido {
+.contenidoTitulo {
 
     background-color:#f08080;
     height: 5rem;
 
 }
 
-.contenedorCirculo {
+.contenidoParrafo {
 
     background-color:#e0ffff;
     height: 5rem;
@@ -32,6 +34,7 @@ p {
 .contenedor {
 
     background-color: #add8e6;
+
 }
 
 ol {
@@ -49,9 +52,7 @@ ul {
 p {
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
     font-size: 2rem;
-
     text-transform: uppercase;
     
 }
@@ -60,6 +61,7 @@ h1 {
     
     font-size: 5rem;
     color: #ffa07a;
+
 }
 
 small {
@@ -75,4 +77,5 @@ blockquote {
     font-size: 1.5rem;
     color: #b935b0;
     text-transform: uppercase;
+    
 }

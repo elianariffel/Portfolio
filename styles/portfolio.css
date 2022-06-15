@@ -7,41 +7,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
 
-
 body {
 
     background-color: #595656;
 
 }
 
-.divPadre {
+.centrarPadre {
 
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 21rem;
-}
-
-.divPadre2 {
-
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 21rem;
-
-}
-
-.divPadre3 {
-
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 21rem;
-
-}
-
-.divPadre4 {
-    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -52,6 +25,7 @@ body {
 .divFooter {
 
     height: 2rem;
+
 }
 
 .card-body {
@@ -91,7 +65,6 @@ p {
 
 }
 
-
 h1 {
 
     font-size: 2.5rem;
@@ -111,93 +84,82 @@ h4 {
     margin-left: 3rem;
 
 } 
-
-
     
-    @media only screen and  (min-width:600px) {
+@media only screen and  (min-width:600px) {
 
+    p {
 
-        p {
-
-            font-size: 1rem;
-            
-        }
+        font-size: 1rem;
         
-        h1 {
+    }
     
-            font-size:3.5rem;
+    h1 {
 
-        }
-    
-        h4 {
-    
-            font-size: 1.5rem ;
-
-        }
-    
-    
-        ul li {
-    
-            font-size: 0.9rem;
-
-        }
-    
-    
+        font-size:3.5rem;
 
     }
 
-    
-    @media only screen and (min-width: 1000px) {
+    h4 {
 
-        p {
-
-            font-size: 1.2rem;
-             
-        }
-        
-        h1 {
-    
-            font-size:4.5rem;
-
-        }
-    
-        h4 {
-    
-            font-size: 1.8rem ;
-
-        }
-    
-    
-        ul li {
-    
-            font-size: 1.1rem;
-            
-        }
-    
-    
-    
-    }
-    
-    @media only screen and (min-width: 1400px){
-
-        h1 {
-    
-            font-size:6rem;
-            
-        }
-        
-        h4 {
-    
-            font-size: 2.5rem ;
-
-        }
-    
-        .imgAvatar {
-           
-            height: 12rem;
-
-        }
-
+        font-size: 1.5rem ;
 
     }
+
+    ul li {
+
+        font-size: 0.9rem;
+
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    p {
+
+        font-size: 1.2rem;
+            
+    }
+    
+    h1 {
+
+        font-size:4.5rem;
+
+    }
+
+    h4 {
+
+        font-size: 1.8rem ;
+
+    }
+
+    ul li {
+
+        font-size: 1.1rem;
+        
+    }
+
+}
+
+@media only screen and (min-width: 1400px){
+
+    h1 {
+
+        font-size:6rem;
+        
+    }
+    
+    h4 {
+
+        font-size: 2.5rem ;
+
+    }
+
+    .imgAvatar {
+        
+        height: 12rem;
+
+    }
+
+}
 
